@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Ecommerce.infrastructure.Repositries
 {
-    internal class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         #region Fields
         private readonly AppDbContext _context;

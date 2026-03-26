@@ -12,8 +12,8 @@ namespace Ecommerce.infrastructure
 
         public static IServiceCollection InfrastructureConfiguration(this IServiceCollection services)
         {
-
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             return services;
         }
 
