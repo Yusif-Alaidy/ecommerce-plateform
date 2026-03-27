@@ -1,0 +1,12 @@
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\bin\Debug\net10.0\Ecommerce.core.deps.json
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\bin\Debug\net10.0\Ecommerce.core.dll
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\bin\Debug\net10.0\Ecommerce.core.pdb
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.sourcelink.json
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.dll
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\refint\Ecommerce.core.dll
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.pdb
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\ref\Ecommerce.core.dll

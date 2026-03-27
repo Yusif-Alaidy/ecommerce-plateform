@@ -1,3 +1,4 @@
+using Ecommerce.infrastructure;
 namespace Ecommerce.api
 {
     public class Program
@@ -11,7 +12,7 @@ namespace Ecommerce.api
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
-
+            builder.Services.InfrastructureConfiguration(builder.Configuration);
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -27,7 +28,7 @@ namespace Ecommerce.api
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            
 
             app.MapControllers();
 
