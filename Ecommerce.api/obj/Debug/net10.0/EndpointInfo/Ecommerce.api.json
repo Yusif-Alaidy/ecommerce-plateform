@@ -12,5 +12,23 @@
       "url": "http://localhost:5249"
     }
   ],
-  "paths": { }
+  "paths": {
+    "/api/Categories": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Categories"
+    }
+  ]
 }
