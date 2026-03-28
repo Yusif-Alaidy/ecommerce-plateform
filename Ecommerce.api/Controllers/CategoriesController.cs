@@ -10,6 +10,8 @@ namespace Ecommerce.api.Controllers
         public CategoriesController(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
         }
+
+        #region Get All Categories
         [HttpGet("")]
         public async Task<IActionResult> GetAll()
         {
@@ -28,5 +30,24 @@ namespace Ecommerce.api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        #endregion
+
+        #region Get By Id
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            try
+            {
+                var category = await unitOfWork.CategoryRepository.GetByIdAsync(id);
+                if (category == null)
+                    return BadRequest(new { message = "This Category is not Exist");
+                return Ok(category);
+            }
+            catch (Exception ex) 
+            {
+                return BadRequest($"{ex.Message}");
+            }
+        }
+        #endregion
     }
 }
