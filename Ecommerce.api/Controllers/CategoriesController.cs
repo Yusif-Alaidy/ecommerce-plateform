@@ -1,4 +1,6 @@
-﻿using Ecommerce.core.Interfaces;
+﻿using Ecommerce.core.DTOs.Requests;
+using Ecommerce.core.Entites.Product;
+using Ecommerce.core.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -34,18 +36,39 @@ namespace Ecommerce.api.Controllers
 
         #region Get By Id
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetById([FromRoute]int id)
         {
             try
             {
                 var category = await unitOfWork.CategoryRepository.GetByIdAsync(id);
                 if (category == null)
-                    return BadRequest(new { message = "This Category is not Exist");
+                    return BadRequest();
                 return Ok(category);
             }
             catch (Exception ex) 
             {
                 return BadRequest($"{ex.Message}");
+            }
+        }
+        #endregion
+
+        #region Create Category
+        [HttpPost]
+        public async Task<IActionResult> CreateCategory(CategoryRequest request)
+        {
+            try
+            {
+                var category = new Category
+                {
+                    Name = request.Name,
+                    Description = request.Description,
+                };
+                await unitOfWork.CategoryRepository.AddAsync(category);
+                return Ok(category);
+            }
+            catch (Exception ex) 
+            {
+                return BadRequest(ex.Message);
             }
         }
         #endregion
