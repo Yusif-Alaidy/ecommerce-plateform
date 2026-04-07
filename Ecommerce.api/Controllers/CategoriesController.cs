@@ -3,6 +3,7 @@ using Ecommerce.core.Entites.Product;
 using Ecommerce.core.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Ecommerce.api.Controllers
 {
@@ -23,12 +24,12 @@ namespace Ecommerce.api.Controllers
                 var categories = await unitOfWork.CategoryRepository.GetAllAsync();
                 if (categories == null)
                 {
-                    return BadRequest(new {message = "You Have no Categories"});
+                    return BadRequest(new { message = "You Have no Categories" });
                 }
                 return Ok(categories);
             }
-            catch(Exception ex)  
-            { 
+            catch (Exception ex)
+            {
                 return BadRequest(ex.Message);
             }
         }
@@ -36,7 +37,7 @@ namespace Ecommerce.api.Controllers
 
         #region Get By Id
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById([FromRoute]int id)
+        public async Task<IActionResult> GetById([FromRoute] int id)
         {
             try
             {
@@ -45,7 +46,7 @@ namespace Ecommerce.api.Controllers
                     return BadRequest();
                 return Ok(category);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 return BadRequest($"{ex.Message}");
             }
@@ -66,8 +67,50 @@ namespace Ecommerce.api.Controllers
                 await unitOfWork.CategoryRepository.AddAsync(category);
                 return Ok(category);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
+                return BadRequest(ex.Message);
+            }
+        }
+        #endregion
+
+        #region Update
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateCategory(int id,CategoryUpdate request)
+        {
+            try
+            {
+                var category = await unitOfWork.CategoryRepository.GetByIdAsync(id);
+                if (category == null)
+                    return BadRequest();
+                category.Name = request.Name;
+                category.Description = request.Description;
+                await unitOfWork.CategoryRepository.UpdateAsync(category);
+                return Ok(category);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
+        #endregion
+
+        #region Delete
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCategory(int id)
+        {
+            try
+            {
+                var category = await unitOfWork.CategoryRepository.GetByIdAsync(id);
+                if(category == null)
+                    return BadRequest();
+                await unitOfWork.CategoryRepository.DeleteAsync(id);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+
                 return BadRequest(ex.Message);
             }
         }

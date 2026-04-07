@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{F57E33FB-CDB3-6F39-453C-B2F68A5DC768}|Ecommerce.api\\Ecommerce.api.csproj|solutionrelative:ecommerce.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F57E33FB-CDB3-6F39-453C-B2F68A5DC768}|Ecommerce.api\\Ecommerce.api.csproj|c:\\users\\asus\\downloads\\ecommerce\\ecommerce.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F57E33FB-CDB3-6F39-453C-B2F68A5DC768}|Ecommerce.api\\Ecommerce.api.csproj|solutionrelative:ecommerce.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57E33FB-CDB3-6F39-453C-B2F68A5DC768}|Ecommerce.api\\Ecommerce.api.csproj|c:\\users\\asus\\downloads\\ecommerce\\ecommerce.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F57E33FB-CDB3-6F39-453C-B2F68A5DC768}|Ecommerce.api\\Ecommerce.api.csproj|solutionrelative:ecommerce.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C839D588-01AA-F7EA-C73D-77D4DF9F1280}|Ecommerce.core\\Ecommerce.core.csproj|c:\\users\\asus\\downloads\\ecommerce\\ecommerce.core\\dtos\\requests\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C839D588-01AA-F7EA-C73D-77D4DF9F1280}|Ecommerce.core\\Ecommerce.core.csproj|solutionrelative:ecommerce.core\\dtos\\requests\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C839D588-01AA-F7EA-C73D-77D4DF9F1280}|Ecommerce.core\\Ecommerce.core.csproj|c:\\users\\asus\\downloads\\ecommerce\\ecommerce.core\\dtos\\requests\\categoryupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C839D588-01AA-F7EA-C73D-77D4DF9F1280}|Ecommerce.core\\Ecommerce.core.csproj|solutionrelative:ecommerce.core\\dtos\\requests\\categoryupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\DTOs\\Requests\\CategoryRequest.cs",
-              "RelativeDocumentMoniker": "Ecommerce.core\\DTOs\\Requests\\CategoryRequest.cs",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\DTOs\\Requests\\CategoryRequest.cs",
-              "RelativeToolTip": "Ecommerce.core\\DTOs\\Requests\\CategoryRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T17:01:17.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Ecommerce.api\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Ecommerce.api\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-28T16:16:30.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "Ecommerce.api\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "Ecommerce.api\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Title": "CategoryUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\DTOs\\Requests\\CategoryUpdate.cs",
+              "RelativeDocumentMoniker": "Ecommerce.core\\DTOs\\Requests\\CategoryUpdate.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\DTOs\\Requests\\CategoryUpdate.cs",
+              "RelativeToolTip": "Ecommerce.core\\DTOs\\Requests\\CategoryUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T16:05:20.589Z",
+              "WhenOpened": "2026-04-07T00:23:27.915Z",
               "EditorCaption": ""
             },
             {
@@ -79,9 +45,9 @@
               "RelativeDocumentMoniker": "Ecommerce.api\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Ecommerce.api\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwDMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwEwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T16:04:23.962Z",
+              "WhenOpened": "2026-04-07T00:21:02.192Z",
               "EditorCaption": ""
             }
           ]
