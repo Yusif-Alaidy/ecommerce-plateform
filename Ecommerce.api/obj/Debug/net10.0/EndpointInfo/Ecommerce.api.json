@@ -156,10 +156,6 @@
   "components": {
     "schemas": {
       "CategoryRequest": {
-        "required": [
-          "name",
-          "description"
-        ],
         "type": "object",
         "properties": {
           "name": {

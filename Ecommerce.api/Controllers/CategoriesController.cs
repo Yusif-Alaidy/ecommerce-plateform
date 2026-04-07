@@ -1,4 +1,5 @@
-﻿using Ecommerce.core.DTOs.Requests;
+﻿using AutoMapper;
+using Ecommerce.core.DTOs.Requests;
 using Ecommerce.core.Entites.Product;
 using Ecommerce.core.Interfaces;
 using Microsoft.AspNetCore.Http;
@@ -10,9 +11,12 @@ namespace Ecommerce.api.Controllers
 
     public class CategoriesController : BaseController
     {
-        public CategoriesController(IUnitOfWork unitOfWork) : base(unitOfWork)
+
+        #region Constructor
+        public CategoriesController(IUnitOfWork unitOfWork, IMapper mapper) : base(unitOfWork, mapper)
         {
         }
+        #endregion
 
         #region Get All Categories
         [HttpGet("")]
@@ -59,12 +63,11 @@ namespace Ecommerce.api.Controllers
         {
             try
             {
-                var category = new Category
-                {
-                    Name = request.Name,
-                    Description = request.Description,
-                };
+    
+                var category = mapper.Map<Category>(request);
+
                 await unitOfWork.CategoryRepository.AddAsync(category);
+
                 return Ok(category);
             }
             catch (Exception ex)
