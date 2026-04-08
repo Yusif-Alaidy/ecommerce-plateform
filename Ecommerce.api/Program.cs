@@ -18,8 +18,8 @@ namespace Ecommerce.api
             builder.Services.InfrastructureConfiguration(builder.Configuration);
 
             #region Auto Mapper
-            //builder.Services.AddAutoMapper(typeof(Program).Assembly);
-            builder.Services.AddAutoMapper(typeof(CategoryMapping).Assembly);
+            builder.Services.AddAutoMapper(typeof(Program).Assembly);
+            //builder.Services.AddAutoMapper(typeof(ConfMapping).Assembly);
             #endregion
 
             var app = builder.Build();

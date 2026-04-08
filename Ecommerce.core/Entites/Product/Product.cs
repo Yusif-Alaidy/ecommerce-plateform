@@ -13,6 +13,6 @@ namespace Ecommerce.core.Entites.Product
         public virtual List<Photos> Photos { get; set; } = new List<Photos>();
         public int CategoryId { get; set; }
         [ForeignKey(nameof(CategoryId))]
-        public virtual Category Category { get; set; } 
+        public virtual Category? Category { get; set; } 
     }
 }
