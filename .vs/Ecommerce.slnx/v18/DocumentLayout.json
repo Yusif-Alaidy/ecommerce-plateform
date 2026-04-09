@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Downloads\\Ecommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FADC3C0-1F67-920F-5C71-8D15AD76BB65}|Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj|c:\\users\\asus\\downloads\\ecommerce\\ecommerce.infrastructure\\services\\imagemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADC3C0-1F67-920F-5C71-8D15AD76BB65}|Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\services\\imagemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C839D588-01AA-F7EA-C73D-77D4DF9F1280}|Ecommerce.core\\Ecommerce.core.csproj|c:\\users\\asus\\downloads\\ecommerce\\ecommerce.core\\service interfaces\\iimagemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C839D588-01AA-F7EA-C73D-77D4DF9F1280}|Ecommerce.core\\Ecommerce.core.csproj|solutionrelative:ecommerce.core\\service interfaces\\iimagemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F57E33FB-CDB3-6F39-453C-B2F68A5DC768}|Ecommerce.api\\Ecommerce.api.csproj|c:\\users\\asus\\downloads\\ecommerce\\ecommerce.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F57E33FB-CDB3-6F39-453C-B2F68A5DC768}|Ecommerce.api\\Ecommerce.api.csproj|solutionrelative:ecommerce.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,19 +58,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImageManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.infrastructure\\Services\\ImageManagementService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.infrastructure\\Services\\ImageManagementService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.infrastructure\\Services\\ImageManagementService.cs",
+              "RelativeToolTip": "Ecommerce.infrastructure\\Services\\ImageManagementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:13:39.774Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IImageManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Service Interfaces\\IImageManagementService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.core\\Service Interfaces\\IImageManagementService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Service Interfaces\\IImageManagementService.cs",
+              "RelativeToolTip": "Ecommerce.core\\Service Interfaces\\IImageManagementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:08:38.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Entites\\Product\\Product.cs",
               "RelativeDocumentMoniker": "Ecommerce.core\\Entites\\Product\\Product.cs",
@@ -75,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Ecommerce.api\\Properties\\launchSettings.json",
@@ -83,11 +113,12 @@
               "RelativeToolTip": "Ecommerce.api\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T00:40:01.004Z"
+              "WhenOpened": "2026-04-08T00:40:01.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ProductsResponse.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\DTOs\\Resposnes\\ProductsResponse.cs",
               "RelativeDocumentMoniker": "Ecommerce.core\\DTOs\\Resposnes\\ProductsResponse.cs",
@@ -95,24 +126,25 @@
               "RelativeToolTip": "Ecommerce.core\\DTOs\\Resposnes\\ProductsResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T00:33:51.513Z"
+              "WhenOpened": "2026-04-08T00:33:51.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Ecommerce.api\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Ecommerce.api\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAQwCwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T00:31:05.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PhotosResponse.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\DTOs\\Resposnes\\PhotosResponse.cs",
               "RelativeDocumentMoniker": "Ecommerce.core\\DTOs\\Resposnes\\PhotosResponse.cs",
@@ -120,11 +152,12 @@
               "RelativeToolTip": "Ecommerce.core\\DTOs\\Resposnes\\PhotosResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T05:28:35.27Z"
+              "WhenOpened": "2026-04-08T05:28:35.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Program.cs",
               "RelativeDocumentMoniker": "Ecommerce.api\\Program.cs",
@@ -132,11 +165,12 @@
               "RelativeToolTip": "Ecommerce.api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T05:39:06.957Z"
+              "WhenOpened": "2026-04-08T05:39:06.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ConfMapping.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.api\\Mapper\\ConfMapping.cs",
               "RelativeDocumentMoniker": "Ecommerce.api\\Mapper\\ConfMapping.cs",
@@ -149,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Entites\\Product\\Category.cs",
               "RelativeDocumentMoniker": "Ecommerce.core\\Entites\\Product\\Category.cs",
@@ -157,11 +191,12 @@
               "RelativeToolTip": "Ecommerce.core\\Entites\\Product\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T00:44:32.224Z"
+              "WhenOpened": "2026-04-08T00:44:32.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CategoryResponse.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\DTOs\\Resposnes\\CategoryResponse.cs",
               "RelativeDocumentMoniker": "Ecommerce.core\\DTOs\\Resposnes\\CategoryResponse.cs",
@@ -169,11 +204,12 @@
               "RelativeToolTip": "Ecommerce.core\\DTOs\\Resposnes\\CategoryResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T05:27:49.41Z"
+              "WhenOpened": "2026-04-08T05:27:49.41Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Photos.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Entites\\Product\\Photos.cs",
               "RelativeDocumentMoniker": "Ecommerce.core\\Entites\\Product\\Photos.cs",
@@ -181,7 +217,8 @@
               "RelativeToolTip": "Ecommerce.core\\Entites\\Product\\Photos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T00:45:34.83Z"
+              "WhenOpened": "2026-04-08T00:45:34.83Z",
+              "EditorCaption": ""
             }
           ]
         }
