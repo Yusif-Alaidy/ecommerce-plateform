@@ -34,5 +34,26 @@ namespace Ecommerce.api.Controllers
             }
         }
         #endregion
+
+        #region Get Product by Id
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetByID(int id)
+        {
+            try
+            {
+                var product = await unitOfWork.ProductRepository.GetByIdAsync(id, e => e.Category, e=>e.Photos);
+                if (product == null)
+                    return NotFound();
+
+                var productDTO = mapper.Map<ProductsResponse>(product);
+                return Ok(productDTO);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
+        #endregion
     }
 }
