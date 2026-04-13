@@ -19,6 +19,7 @@ namespace Ecommerce.api
 
             #region Auto Mapper
             builder.Services.AddAutoMapper(typeof(Program).Assembly);
+
             //builder.Services.AddAutoMapper(typeof(ConfMapping).Assembly);
             #endregion
 

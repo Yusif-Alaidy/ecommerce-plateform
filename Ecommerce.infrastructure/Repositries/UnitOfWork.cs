@@ -1,4 +1,6 @@
-﻿using Ecommerce.core.Interfaces;
+﻿using AutoMapper;
+using Ecommerce.core.Interfaces;
+using Ecommerce.core.Service_Interfaces;
 using Ecommerce.infrastructure.Data;
 using System;
 using System.Collections.Generic;
@@ -13,12 +15,15 @@ namespace Ecommerce.infrastructure.Repositries
         public ICategoryRepository CategoryRepository { get; }
          
         public IProductRepository ProductRepository {  get; }
-
-        public UnitOfWork(AppDbContext context)
+        private readonly IMapper mapper;
+        private readonly IImageManagementService imageManagementService;
+        public UnitOfWork(AppDbContext context, IMapper mapper, IImageManagementService imageManagementService)
         {
             this.context = context;
             CategoryRepository = new CategoryRepository(context);
-            ProductRepository = new ProductRepository(context);
+            ProductRepository = new ProductRepository(context, mapper, imageManagementService);
+            this.mapper = mapper;
+            this.imageManagementService = imageManagementService;
         }
     }
 }

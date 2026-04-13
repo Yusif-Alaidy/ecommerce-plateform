@@ -10,3 +10,4 @@ C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.cor
 C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\refint\Ecommerce.core.dll
 C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.pdb
 C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\ref\Ecommerce.core.dll
+C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.csproj.AssemblyReference.cache

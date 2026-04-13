@@ -3,6 +3,7 @@ using Ecommerce.core.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Ecommerce.core.DTOs.Resposnes;
+using Ecommerce.core.DTOs.Requests;
 
 namespace Ecommerce.api.Controllers
 {
@@ -47,6 +48,23 @@ namespace Ecommerce.api.Controllers
 
                 var productDTO = mapper.Map<ProductsResponse>(product);
                 return Ok(productDTO);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
+        #endregion
+
+        #region Create Product
+        [HttpPost]
+        public async Task<IActionResult> CreateProduct([FromForm]CreateProductDTO request)
+        {
+            try
+            {
+                var product = await unitOfWork.ProductRepository.AddAsync(request);
+                return Ok(new {msh = "the products created succefully"});
             }
             catch (Exception ex)
             {

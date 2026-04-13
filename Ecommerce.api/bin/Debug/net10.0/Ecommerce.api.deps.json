@@ -838,6 +838,7 @@
       },
       "Ecommerce.infrastructure/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "Ecommerce.core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.5"
