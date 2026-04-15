@@ -91,5 +91,23 @@ namespace Ecommerce.api.Controllers
             }
         }
         #endregion
+
+        #region Delete Product
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            try
+            {
+                await unitOfWork.ProductRepository.DeleteAsync(id);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+
+        }
+        #endregion
     }
 }

@@ -80,5 +80,22 @@ namespace Ecommerce.infrastructure.Repositries
 
         }
         #endregion
+
+        #region Delete Overreding
+        public async Task DeleteAsync(int id)
+        {
+            var product = await context.Products.FindAsync(id);
+            var Photos = await context.Photos.Where(e=>e.ProductId==id).ToListAsync();
+
+
+            foreach (var photo in Photos)
+            {
+                imageManagementService.DeleteImageAsync(photo.ImageName);
+            }
+            context.Products.Remove(product);
+            await context.SaveChangesAsync();
+
+        }
+        #endregion
     }
 }
