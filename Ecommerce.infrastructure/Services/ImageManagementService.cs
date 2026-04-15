@@ -31,7 +31,7 @@ namespace Ecommerce.infrastructure.Services
             {
                 if (image.Length > 0)
                 {
-                    var ImageName = image.Name;
+                    var ImageName = image.FileName;
                     var ImageSrc = $"/Images/{src}/{ImageName}";
 
                     var root = Path.Combine(ImageDirectory, ImageName);

@@ -5,6 +5,6 @@ using System.Text;
 
 namespace Ecommerce.core.DTOs.Resposnes
 {
-    public record ProductsResponse(string Name, string Description, decimal Price, CategoryResponse Category, List<PhotosResponse> Photos);
+    public record ProductsResponse(int id,string Name, string Description, decimal Price, CategoryResponse Category, List<PhotosResponse> Photos);
 
 }

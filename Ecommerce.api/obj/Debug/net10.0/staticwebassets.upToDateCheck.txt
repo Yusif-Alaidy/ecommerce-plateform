@@ -1,0 +1,3 @@
+wwwroot\Images\Hp\7379227_32184.jpg
+wwwroot\Images\Hp\Elegant Pastel Leopard Art.jpg
+wwwroot\Images\namne\Photos

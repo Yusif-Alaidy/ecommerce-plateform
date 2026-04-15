@@ -73,5 +73,23 @@ namespace Ecommerce.api.Controllers
             }
         }
         #endregion
+
+        #region Update Product
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct(int Id, CreateProductDTO request) 
+        {
+            try
+            {
+
+                var product = await unitOfWork.ProductRepository.UpdateAsync(Id, request);
+                return Ok(new {msg = "Updated Successfully"});
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
+        #endregion
     }
 }
