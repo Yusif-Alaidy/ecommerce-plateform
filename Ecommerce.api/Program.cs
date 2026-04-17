@@ -1,4 +1,5 @@
 using Ecommerce.api.Mapper;
+using Ecommerce.api.Middlewares;
 using Ecommerce.core.DTOs.Requests;
 using Ecommerce.core.Entites.Product;
 using Ecommerce.infrastructure;
@@ -37,7 +38,7 @@ namespace Ecommerce.api
             }
 
             app.UseHttpsRedirection();
-
+            app.UseMiddleware<SecurityHeadersMiddleware>();
             app.UseAuthorization();
             
 

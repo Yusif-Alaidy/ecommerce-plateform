@@ -1,2 +1,1 @@
-wwwroot\Images\Hp updated\124726.jpg
 wwwroot\Images\namne\Photos
