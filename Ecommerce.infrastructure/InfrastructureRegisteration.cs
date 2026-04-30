@@ -28,6 +28,7 @@ namespace Ecommerce.infrastructure
             {
                 op.UseSqlServer(configuration.GetConnectionString("UserDatabase"));
             });
+            
             return services;
         }
 

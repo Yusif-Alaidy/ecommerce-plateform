@@ -9,6 +9,7 @@ namespace Ecommerce.core.Interfaces
     {
         // Get all ================================================================================
         Task<IReadOnlyList<T>> GetAllAsync();
+
         Task<IReadOnlyList<T>> GetAllAsync(params Expression<Func<T, object>>[] includes);  
         // ========================================================================================
 

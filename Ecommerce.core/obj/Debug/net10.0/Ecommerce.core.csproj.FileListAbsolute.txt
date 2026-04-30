@@ -11,3 +11,15 @@ C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\refint\Ecomme
 C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.pdb
 C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\ref\Ecommerce.core.dll
 C:\Users\Asus\Downloads\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.csproj.AssemblyReference.cache
+D:\Projects\Ecommerce\Ecommerce.core\bin\Debug\net10.0\Ecommerce.core.deps.json
+D:\Projects\Ecommerce\Ecommerce.core\bin\Debug\net10.0\Ecommerce.core.dll
+D:\Projects\Ecommerce\Ecommerce.core\bin\Debug\net10.0\Ecommerce.core.pdb
+D:\Projects\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.csproj.AssemblyReference.cache
+D:\Projects\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.AssemblyInfoInputs.cache
+D:\Projects\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.AssemblyInfo.cs
+D:\Projects\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.csproj.CoreCompileInputs.cache
+D:\Projects\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.dll
+D:\Projects\Ecommerce\Ecommerce.core\obj\Debug\net10.0\refint\Ecommerce.core.dll
+D:\Projects\Ecommerce\Ecommerce.core\obj\Debug\net10.0\Ecommerce.core.pdb
+D:\Projects\Ecommerce\Ecommerce.core\obj\Debug\net10.0\ref\Ecommerce.core.dll

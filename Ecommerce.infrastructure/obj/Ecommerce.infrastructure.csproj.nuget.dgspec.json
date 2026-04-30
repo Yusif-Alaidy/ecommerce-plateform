@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj": {}
+    "D:\\Projects\\Ecommerce\\Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj": {
+    "D:\\Projects\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj",
+        "projectUniqueName": "D:\\Projects\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj",
         "projectName": "Ecommerce.core",
-        "projectPath": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj",
+        "projectPath": "D:\\Projects\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\obj\\",
+        "outputPath": "D:\\Projects\\Ecommerce\\Ecommerce.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.8.0, )"
             }
           },
           "imports": [
@@ -349,14 +353,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj": {
+    "D:\\Projects\\Ecommerce\\Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj",
+        "projectUniqueName": "D:\\Projects\\Ecommerce\\Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj",
         "projectName": "Ecommerce.infrastructure",
-        "projectPath": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj",
+        "projectPath": "D:\\Projects\\Ecommerce\\Ecommerce.infrastructure\\Ecommerce.infrastructure.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.infrastructure\\obj\\",
+        "outputPath": "D:\\Projects\\Ecommerce\\Ecommerce.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -377,8 +381,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Downloads\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj"
+              "D:\\Projects\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj": {
+                "projectPath": "D:\\Projects\\Ecommerce\\Ecommerce.core\\Ecommerce.core.csproj"
               }
             }
           }

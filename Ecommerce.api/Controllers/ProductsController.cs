@@ -18,15 +18,16 @@ namespace Ecommerce.api.Controllers
 
         #region Get all Products
         [HttpGet]
-        public async Task<IActionResult> GetAllProducts()
+        public async Task<IActionResult> GetAllProducts([FromQuery] ProductQueryParams request)
         {
             try
             {
-                var products = await unitOfWork.ProductRepository.GetAllAsync(e => e.Category, e => e.Photos);
+                var products = await unitOfWork.ProductRepository.GetAllAsync(request);
                 if (products == null) 
                     return NotFound();
-                var productDTOs = mapper.Map<List<ProductsResponse>>(products);
-                return Ok(productDTOs);
+                //var productDTOs = mapper.Map<List<ProductsResponse>>(products);
+                //return Ok(productDTOs);
+                return Ok(products);
             }
             catch (Exception ex)
             {
